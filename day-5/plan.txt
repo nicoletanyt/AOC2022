@@ -1,0 +1,13 @@
+
+create vectors for each row of data
+> use vector.begin() to get the latest value on the top (use this to find answer too)
+
+
+reading value (done)
+> split the data into two parts: crates / instructions [vector<string>]
+> for the crates vector, remove all other characters except for alphabets 
+> first loop through all elements in the crates vector and if they are an alphabet, push it to another vector (final one)
+
+reading the instructions
+> in the instructionsIndex vector, the last 2 are always the rows, and the rest in front are the number of crates to be moved
+> loop through the numbers. 
